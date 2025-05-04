@@ -1,0 +1,93 @@
+.ml-8 {
+  margin-left: 8px;
+}
+.ml-16 {
+  margin-left: 16px;
+}
+.main {
+  height: 100%;
+}
+.main-header {
+  min-height: 50px;
+  background-color: #56496e;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 24px;
+}
+.main-content {
+  height: calc(100% - 80px);
+  overflow-y: auto;
+  margin-top: 16px;
+  padding: 8px;
+  background-color: #2f3349;
+  border-radius: 8px;
+}
+/* table */
+.ant-table-thead > tr > th {
+  border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+.ant-table-placeholder {
+  border-bottom: none !important;
+}
+.ant-table-placeholder .ant-empty-description {
+  color: white;
+}
+/* upload */
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+  background-color: #2f3349;
+}
+/* modal */
+.ant-modal-title {
+  color: white !important;
+}
+.ant-modal-header {
+  border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+.ant-modal-footer {
+  border-top: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+/* select */
+/* .ant-select-selection {
+    background-color: #002761 !important;
+    color: rgba(255, 255, 255) !important;
+    border: 1px solid #00a7ef !important;
+    border-radius: 0 !important;
+} */
+.ant-select-selection .anticon {
+  color: white !important;
+}
+.ant-select-selection__clear {
+  background-color: #00122e52 !important;
+}
+.ant-select-dropdown-menu,
+.ant-select-dropdown-menu-root,
+.ant-select-dropdown-menu-vertical li {
+  color: white !important;
+}
+.ant-select-dropdown {
+  color: white !important;
+  border: 1px solid #2f3349 !important;
+  background-color: #2f3349 !important;
+}
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-active {
+  background-color: #8d76e1 !important;
+  color: white !important;
+}
+.ant-empty-description {
+  color: white !important;
+}
+/* drop menu */
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: #6f48ff !important;
+}
+.ant-list-item-meta-description {
+  color: white !important;
+}
+.ant-list-split .ant-list-item {
+  border-bottom: none !important;
+}

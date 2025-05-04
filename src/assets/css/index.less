@@ -1,0 +1,126 @@
+.ml-8 {
+	margin-left: 8px;
+}
+.ml-16 {
+	margin-left: 16px;
+}
+
+// 布局样式
+.main {
+	height: 100%;
+
+	&-header {
+		min-height: 50px;
+		background-color: #4a4f68;
+		border-radius: 8px;
+		padding: 8px;
+		padding-left: 24px;
+	}
+
+	&-content {
+		height: calc(100% - 80px);
+		overflow-y: auto;
+		margin-top: 16px;
+		padding: 8px;
+		background-color: #4a4f68;
+		border-radius: 8px;
+	}
+}
+
+/* table */
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+	// padding: 8px 16px !important;
+}
+
+.ant-table-thead > tr > th {
+	border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+.ant-table-tbody > tr > td {
+	border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+
+.ant-table-placeholder {
+	.ant-empty-description {
+		color: white;
+	}
+	border-bottom: none !important;
+}
+
+/* upload */
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+	background-color: #492f45;
+}
+
+/* modal */
+.ant-modal-title {
+	color: white !important;
+}
+.ant-modal-header {
+	border-bottom: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+.ant-modal-footer {
+	border-top: 1px solid rgba(228, 230, 244, 0.12) !important;
+}
+
+/* select */
+// 选择器外部样式
+/* .ant-select-selection {
+    background-color: #002761 !important;
+    color: rgba(255, 255, 255) !important;
+    border: 1px solid #00a7ef !important;
+    border-radius: 0 !important;
+} */
+
+// 选择器箭头样式
+.ant-select-selection .anticon {
+	color: white !important;
+}
+
+// 选择器清理图标样式
+.ant-select-selection__clear {
+	background-color: #00122e52 !important;
+}
+
+// 选择器下拉菜单字体颜色
+.ant-select-dropdown-menu,
+.ant-select-dropdown-menu-root,
+.ant-select-dropdown-menu-vertical li {
+	color: white !important;
+}
+
+// 选择器下拉菜单背景颜色
+.ant-select-dropdown {
+	color: white !important;
+	border: 1px solid #492f39 !important;
+	background-color: #2f3349 !important;
+}
+
+// 选择器下拉菜单选中的数据，与鼠标移入样式
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-active {
+	background-color: #6785d1 !important;
+	color: white !important;
+}
+
+.ant-empty-description {
+	color: white !important;
+}
+
+/* drop menu */
+
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu-title {
+	&:hover {
+		background-color: #927af2 !important;
+	}
+}
+
+.ant-list-item-meta-description{
+	color: white !important;
+}
+
+.ant-list-split .ant-list-item{
+	border-bottom: none !important;
+}
